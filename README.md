@@ -1,2 +1,2 @@
 # todo-app
-Simple Todo app built in go 
+Simple Todo app built in go. 

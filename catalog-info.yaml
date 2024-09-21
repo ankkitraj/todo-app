@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: todo-app
+  description: Description of the todo-app repository
+  annotations:
+    github.com/project-slug: ankkitraj/todo-app
+spec:
+  type: service
+  owner: ankkitraj
+  lifecycle: production
+  system: my-system
+  links:
+    - url: https://github.com/ankkitraj/todo-app
+      title: Repository
